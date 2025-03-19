@@ -1,0 +1,27 @@
+<project xmlns="https://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="https://maven.apache.org/POM/4.0.0 https://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.javascriptcalculator</groupId>
+  <artifactId>SimpleJSCalc</artifactId>
+  <packaging>war</packaging>
+  <version>1</version>
+  <name>SimpleJSCalc</name>
+  <url>http://maven.apache.org</url>
+  <dependencies>
+   <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.10.2</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+     <artifactId>selenium-java</artifactId>
+     <version>4.25.0</version>
+ </dependency>
+ </dependencies>
+  <build>
+    <finalName>SimpleJSCalc</finalName>
+  </build>
+</project>
